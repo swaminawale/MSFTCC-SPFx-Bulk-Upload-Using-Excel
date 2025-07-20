@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "Bulk Upload SPFx",
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "Bulk Upload SPFx",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "bulk-upload-sp-fx",
+    "libraryId": "ae775f71-22d9-49eb-954b-708935ca500f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "Bulk Upload SPFx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Demo",
+  "steps": [
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/Services/Services.ts",
+      "description": "This function gets items from the SharePoint list. If more than 5000 items, then using pagination here to load next...",
+      "line": 9
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
+      "description": "Main component",
+      "line": 1
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/Services/Services.ts",
+      "description": "This file abstracts your SharePoint operations using PnP JS, making the component cleaner and more reusable.",
+      "line": 1
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/Services/Services.ts",
+      "description": "This fnuction uploads the records one by one. It’s simple and gives updates after each item is saved",
+      "line": 24
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/Services/Services.ts",
+      "description": "This function uploads all the records together. It’s much faster for large files. It also shows the progress as it goes.",
+      "line": 38
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
+      "description": "These are the states used to keep track of everything like the uploaded file, list data, missing fields, progress, and errors. ",
+      "line": 24
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
+      "description": "This function runs when the web part renders. It fetches items from the SharePoint list",
+      "line": 38
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
+      "description": "When the user picks an Excel file, this code reads it and converts each row into an object we can work with. (to create an object/payload for each item to add in SP list)",
+      "line": 54
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
+      "description": "Here we check if any required fields are missing in each row. If something’s missing, we show the row number (so that user can easily search in file) and check what’s missing.",
+      "line": 68
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
+      "description": "When the user clicks Upload, this function runs. They can choose either sequential or batch",
+      "line": 105
+    },
+    {
+      "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
+      "description": "This is the UI. The user selects a file, sees missing fields if any, and then uploads it. During upload, they see a progress bar and count.",
+      "line": 142
+    }
+  ]
+}

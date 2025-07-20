@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bulk-upload-sp-fx-client-side-solution",
+    "id": "ae775f71-22d9-49eb-954b-708935ca500f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Swami N.",
+      "websiteUrl": "https://www.youtube.com/channel/UC4hxCifc4RFPPbUPxE9oO0w",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Bulk Upload SPFx description"
+      },
+      "longDescription": {
+        "default": "Bulk Upload SPFx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "bulk-upload-sp-fx Feature",
+        "description": "The feature that activates elements of the bulk-upload-sp-fx solution.",
+        "id": "efc86ec7-657c-4e7a-a5c2-5db9c6a058f6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/bulk-upload-sp-fx.sppkg"
+  }
+}
