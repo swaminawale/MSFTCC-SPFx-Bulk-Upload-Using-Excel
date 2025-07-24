@@ -15,8 +15,7 @@ This solution leverages:
 It provides two upload methods:
 
 1. **Sequential Add:** Uploads one item at a time using async/await.
-2. **Parallel Add:** Uploads all items concurrently using `Promise.all`.
-   To make it more reusable for you guys, I customized it a little bit and added these two uploading methods.
+2. **Batch Add:** Uploads items in batch
 
 ## Requirements
 

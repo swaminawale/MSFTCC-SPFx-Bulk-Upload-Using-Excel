@@ -3,19 +3,14 @@
   "title": "Demo",
   "steps": [
     {
-      "file": "src/webparts/bulkUploadSpFx/components/Services/Services.ts",
-      "description": "This function gets items from the SharePoint list. If more than 5000 items, then using pagination here to load next...",
-      "line": 9
-    },
-    {
       "file": "src/webparts/bulkUploadSpFx/components/BulkUploadSpFx.tsx",
       "description": "Main component",
       "line": 1
     },
     {
       "file": "src/webparts/bulkUploadSpFx/components/Services/Services.ts",
-      "description": "This file abstracts your SharePoint operations using PnP JS, making the component cleaner and more reusable.",
-      "line": 1
+      "description": "This function gets items from the SharePoint list. If more than 5000 items, then using pagination here to load next...",
+      "line": 9
     },
     {
       "file": "src/webparts/bulkUploadSpFx/components/Services/Services.ts",
